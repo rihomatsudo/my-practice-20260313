@@ -1,0 +1,17 @@
+@charset "UTF-8";
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+.txt {
+    font-size: 48px;
+    color: #4fff1f;
+}
+.txt-2 {
+    font-size: 48px;
+    color: #ff9900;
+}

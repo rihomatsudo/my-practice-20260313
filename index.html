@@ -1,34 +1,3127 @@
+
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-    <header>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </header>
-    <main>
-        
-        <p class="txt">Hello, World!</p>
-        
-        <p class="txt-2">Hello, World!</p>
-        <p class="txt">Hello, World!</p>
-        <p class="txt-2">Hello, World!</p>
-        <p class="txt">Hello, World!</p>
-        <p class="txt-2">Hello, World!</p>
-    </main>
-    <footer>
-        <nav>
+  <head>
+          <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K94VQRS8');</script>
+<!-- End Google Tag Manager -->        <meta charset="UTF-8">
+    <title>予約システム RESERVA(レゼルバ) | 無料で予約管理</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Description" content="RESERVAは、無料予約システム。健康診断、貸し会議室、ヨガ教室、スクール、イベント、公共施設、ホワイトニング、クリニック、ホテルなどの予約受付に最適。オンラインレッスンの予約にも対応。Zoomと組み合わせてサービス提供が可能。  ">
+    <meta name="Keywords" content="予約システム,官公庁,健康診断,貸し会議室,ホテル予約管理">
+    <meta name="Author" content="RESERVA">
+    <meta name="Copyright" content="©RESERVA">
+
+    <meta property="og:title" content="予約システム RESERVA(レゼルバ) | 無料で予約管理">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="RESERVAは、無料予約システム。健康診断、貸し会議室、ヨガ教室、スクール、イベント、公共施設、ホワイトニング、クリニック、ホテルなどの予約受付に最適。オンラインレッスンの予約にも対応。Zoomと組み合わせてサービス提供が可能。  ">
+    <meta property="og:url" content="https://reserva.be/">
+    <meta property="og:image" content="/images/fb_ogp_image.jpg">
+    <meta property="og:site_name" content="RESERVA（レゼルバ）">
+    <meta property="fb:admins" content="100005640586786">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no" />
+
+    <link href="/favicon.ico" rel="shortcut icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+
+    <link rel="preload" as="image" href="/images/2024/fv-mock_pc.png?v=v2026-04-02-01" imagesrcset="/images/2024/fv-mock_pc.webp?v=v2026-04-02-01">
+    <link rel="preload" as="image" href="/images/2024/fv-mock_sp_min.png?v=v2026-04-02-01" imagesrcset="/images/2024/fv-mock_sp.webp?v=v2026-04-02-01">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet" media="all">
+
+    <link rel="canonical" href="https://reserva.be/" />
+
+        <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+      * {
+        margin: 0;
+        -webkit-margin-before: 0;
+        margin-block-start: 0;
+        -webkit-margin-after: 0;
+        margin-block-end: 0;
+        -webkit-padding-start: 0;
+        padding-inline-start: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      *:focus {
+        outline: none;
+      }
+
+      html {
+        font-size: 12pt;
+        max-width: 100vw;
+        max-height: 100%;
+        font-family: Roboto, "Noto Sans JP", sans-serif;
+      }
+
+      body {
+        overflow-x: hidden;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        background-color: #fff;
+        color: #333;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      img,
+      picture,
+      video,
+      canvas,
+      svg {
+        display: block;
+        max-width: 100%;
+      }
+
+      p,
+      span,
+      div,
+      li,
+      a,
+      label,
+      input,
+      button,
+      textarea,
+      select {
+        font: inherit;
+      }
+
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        overflow-wrap: break-word;
+      }
+
+      em {
+        font-style: normal;
+      }
+
+      picture {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+      }
+
+      a {
+        text-decoration: none;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        color: #333;
+        font-size: 90%;
+      }
+
+      a:before,
+      a:after {
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      body.no_transition {
+        -webkit-transition: none !important;
+        transition: none !important;
+      }
+
+      h1 {
+        font-size: 40pt;
+        line-height: 4rem;
+      }
+
+      h2 {
+        font-size: 30pt;
+      }
+
+      h2.center {
+        text-align: center;
+      }
+
+      img {
+        border-style: none;
+      }
+
+      a.button {
+        font-size: 90%;
+        font-weight: bold;
+        text-align: center;
+        white-space: nowrap;
+        letter-spacing: .07rem;
+        display: inline-block;
+        line-height: 35px;
+        border-radius: 35px;
+        padding: 3px 20px 1px 20px;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+      }
+
+      a.button.body {
+        font-size: 100%;
+        padding: 10px 20px 7px;
+        width: 100%;
+        max-width: 400px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      a.button.main {
+        color: #fff;
+        background-color: #4abaa7;
+        border: solid 1px #4abaa7;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        a.button.main:hover {
+          background-color: #31A592;
+        }
+      }
+
+      a.button.sub {
+        background-color: #fff;
+        border: solid 2px #333;
+        overflow: hidden;
+        position: relative;
+      }
+
+      a.button.sub:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 0;
+        height: 100%;
+        background-color: #f5f5f5;
+        mix-blend-mode: multiply;
+        border-radius: 35px;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        a.button.sub:hover:after {
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      a.button.sub.primary {
+        color: #4abaa7;
+        border: solid 2px #4abaa7;
+      }
+
+      a.button.sub.primary:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 0;
+        height: 100%;
+        background-color: #f0faf8;
+        mix-blend-mode: multiply;
+        border-radius: 35px;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        a.button.sub.primary:hover:after {
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      #load_bg {
+        position: fixed;
+        z-index: 14;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        -webkit-filter: opacity(100%);
+        filter: opacity(100%);
+        pointer-events: auto;
+        -webkit-transition: .5s ease;
+        transition: .5s ease;
+        -webkit-transition-property: -webkit-filter;
+        transition-property: -webkit-filter;
+        transition-property: filter;
+        transition-property: filter, -webkit-filter;
+      }
+
+      #load_bg.hide {
+        pointer-events: none;
+        -webkit-filter: opacity(0);
+        filter: opacity(0);
+      }
+
+      @media screen and (min-width: 1025px) and (min-height: 561px) {
+        .pc_none {
+          display: none !important;
+        }
+      }
+
+      @media only screen and (min-width: 561px) and (max-width: 1024px) {
+        .tb_none {
+          display: none !important;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        .sp_none {
+          display: none !important;
+        }
+      }
+
+      @media screen and (max-width: 699px) {
+        h1 {
+          font-size: 35pt;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        h1 {
+          font-size: 30pt;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        h2 {
+          font-size: 25pt;
+        }
+      }
+
+      @media only screen and (max-width: 1024px) {
+        a.button.body {
+          font-size: 14pt;
+          max-width: 65%;
+        }
+      }
+
+      @media only screen and (max-width: 800px) {
+        a.button.body {
+          font-size: 13pt;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        a.button.body {
+          font-size: inherit;
+          padding: 7px 20px 4px;
+          max-width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        a.button.main.body {
+          font-size: 110%;
+          padding: 10px 20px 6px;
+        }
+      }
+
+      #slide_bg {
+        position: fixed;
+        z-index: 13;
+        width: 100vw;
+        height: 100vh;
+        background-color: #ccc;
+        mix-blend-mode: multiply;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: -webkit-filter;
+        transition-property: -webkit-filter;
+        transition-property: filter;
+        transition-property: filter, -webkit-filter;
+      }
+
+      #slide_bg.show {
+        pointer-events: auto;
+        -webkit-filter: opacity(100%);
+        filter: opacity(100%);
+      }
+
+      header {
+        position: absolute;
+        top: 0;
+        z-index: 15;
+        width: 100vw;
+        height: 4rem;
+        background-color: #fff;
+        border-bottom: solid 1px #ccc;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        header {
+          position: fixed;
+          -webkit-transform: translate(0, -4rem);
+          transform: translate(0, -4rem);
+        }
+      }
+
+      @media only screen and (max-width: 1024px) {
+        header.show {
+          position: fixed;
+          -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+        }
+      }
+
+      header .header_inner {
+        width: calc(100% - 160px);
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 10px 0;
+        margin: 0 auto;
+      }
+
+      @media only screen and (max-width: 1280px) {
+        header .header_inner {
+          width: 100%;
+          padding: 10px 40px;
+        }
+      }
+
+      @media screen and (max-width: 1120px) and (min-width: 1025px) {
+        header .header_inner {
+          padding: 10px 20px;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        header .header_inner {
+          padding: 10px 25px;
+        }
+      }
+
+      header .header_inner * {
+        display: inline-block;
+      }
+
+      header .header_inner .header_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        gap: 0 15px;
+        height: 100%;
+      }
+
+      header .header_inner .header_content .header_logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        max-width: 140px;
+        height: 100%;
+        line-height: 0;
+        margin-right: 30px;
+      }
+
+      @media only screen and (max-width: 560px) {
+        header .header_inner .header_content .header_logo {
+          max-width: 130px;
+          margin-right: 20px;
+        }
+      }
+
+      header .header_inner .header_content .header_logo img {
+        width: 100%;
+        min-width: 80px;
+        height: auto;
+      }
+
+      header .header_inner .header_content .header_menu {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        header .header_inner .header_content .header_menu {
+          display: none;
+        }
+      }
+
+      header .header_inner .header_content .header_menu .header_menu_list nav {
+        display: inline-block;
+      }
+
+      header .header_inner .header_content .header_menu .header_menu_list nav ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 0 12%;
+      }
+
+      @media screen and (max-width: 1120px) and (min-width: 1025px) {
+        header .header_inner .header_content .header_menu .header_menu_list nav ul {
+          gap: 0 9%;
+        }
+      }
+
+      header .header_inner .header_content .header_menu .header_menu_list nav ul li {
+        font-weight: bold;
+        white-space: nowrap;
+        position: relative;
+      }
+
+      header .header_inner .header_content .header_menu .header_menu_list nav ul li:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -4px;
+        right: 0;
+        z-index: 1;
+        width: 0;
+        height: 2px;
+        background-color: #ccc;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: width;
+        transition-property: width;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        header .header_inner .header_content .header_menu .header_menu_list nav ul li:hover:after {
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      header .header_inner .header_content .header_menu .header_btns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 0 10px;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        header .header_inner .header_content .header_menu .header_btns {
+          display: none;
+        }
+      }
+
+      header .header_inner .header_signin {
+        position: relative;
+        padding: 0 15px;
+      }
+
+      header .header_inner .header_signin .signin_trigger {
+        padding: 5px 0;
+        line-height: 0;
+        white-space: nowrap;
+        cursor: pointer;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: color;
+        transition-property: color;
+      }
+
+      header .header_inner .header_signin .signin_trigger path {
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: fill;
+        transition-property: fill;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        header .header_inner .header_signin .signin_trigger:hover {
+          color: #31A592;
+        }
+        header .header_inner .header_signin .signin_trigger:hover path {
+          fill: #31A592;
+        }
+      }
+
+      header .header_inner .header_signin .signin_menu {
+        display: none;
+        position: absolute;
+        top: calc(3rem - 3px);
+        right: 0;
+        z-index: 14;
+        padding: 20px;
+        line-height: 1.5;
+        background-color: #fff;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+      }
+
+      header .header_inner .header_signin .signin_menu.show {
+        display: block;
+      }
+
+      header .header_inner .header_signin .signin_menu ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 15px 0;
+      }
+
+      header .header_inner .header_signin .signin_menu ul li {
+        white-space: nowrap;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        header .header_inner .header_signin .signin_menu ul li a:hover {
+          color: #31A592;
+        }
+      }
+
+      header .header_inner .header_icon-wrap {
+        position: relative;
+        width: 25pt;
+        height: 25pt;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 15px;
+        cursor: pointer;
+      }
+
+      @media only screen and (min-width: 1025px) {
+        header .header_inner .header_icon-wrap {
+          display: none;
+        }
+      }
+
+      @media only screen and (max-width: 800px) {
+        header .header_inner .header_icon-wrap {
+          width: 22pt;
+          height: 22pt;
+        }
+      }
+
+      header .header_inner .header_icon-wrap .header_icon {
+        display: block;
+        width: 100%;
+        height: 2pt;
+        background-color: #666;
+        opacity: 1;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: opacity width;
+        transition-property: opacity width;
+      }
+
+      header .header_inner .header_icon-wrap:before, header .header_inner .header_icon-wrap:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2pt;
+        background-color: #666;
+        -webkit-transform: rotate(0deg) translate(0, 0);
+        transform: rotate(0deg) translate(0, 0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: -webkit-transform top bottom;
+        transition-property: -webkit-transform top bottom;
+        transition-property: transform top bottom;
+        transition-property: transform top bottom, -webkit-transform top bottom;
+      }
+
+      header .header_inner .header_icon-wrap:before {
+        top: 2pt;
+      }
+
+      header .header_inner .header_icon-wrap:after {
+        bottom: 2pt;
+      }
+
+      header .header_inner .header_icon-wrap.open .header_icon {
+        width: 0;
+        opacity: 0;
+      }
+
+      header .header_inner .header_icon-wrap.open:before {
+        top: 50%;
+        -webkit-transform: rotate(-45deg) translate(0, -50%);
+        transform: rotate(-45deg) translate(0, -50%);
+      }
+
+      header .header_inner .header_icon-wrap.open:after {
+        bottom: 50%;
+        -webkit-transform: rotate(45deg) translate(0, 50%);
+        transform: rotate(45deg) translate(0, 50%);
+      }
+
+      header.fixed {
+        position: fixed;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+      }
+
+      .slide_menu {
+        display: none;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        .slide_menu {
+          display: block;
+          position: fixed;
+          top: 0;
+          right: 0;
+          z-index: 14;
+          width: 100%;
+          max-width: 100vw;
+          background-color: #fff;
+          border-bottom: solid 1px #ccc;
+          -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+          -webkit-transition: .3s ease;
+          transition: .3s ease;
+          -webkit-transition-property: -webkit-transform;
+          transition-property: -webkit-transform;
+          transition-property: transform;
+          transition-property: transform, -webkit-transform;
+        }
+      }
+
+      @media only screen and (max-height: 560px) {
+        .slide_menu {
+          max-height: calc(100dvh - 4rem);
+          overflow: hidden auto;
+        }
+      }
+
+      .slide_menu.open {
+        -webkit-transform: translate(0, 4rem);
+        transform: translate(0, 4rem);
+      }
+
+      .slide_menu .slide_menu_list {
+        width: 100%;
+        padding: 20px 30px;
+        border-bottom: solid 1px #ccc;
+      }
+
+      .slide_menu .slide_menu_list nav ul li {
+        font-size: 2vw;
+        padding: 15px 0;
+      }
+
+      @media only screen and (max-width: 800px) {
+        .slide_menu .slide_menu_list nav ul li {
+          font-size: 2.5vw;
+          padding: 12px 0;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        .slide_menu .slide_menu_list nav ul li {
+          font-size: 11pt;
+        }
+      }
+
+      .slide_menu .slide_menu_list nav ul li:not(:last-of-type) {
+        border-bottom: solid 1px #ccc;
+      }
+
+      @media screen and (max-width: 699px) {
+        .slide_menu .slide_menu_list nav ul li a {
+          font-size: 12pt;
+        }
+      }
+
+      .slide_menu .slide_btns {
+        max-width: 80%;
+        padding: 30px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 20px;
+      }
+
+      @media screen and (max-width: 699px) {
+        .slide_menu .slide_btns {
+          max-width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        .slide_menu .slide_btns {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+        }
+      }
+
+      .slide_menu .slide_btns a {
+        width: 100%;
+        font-size: 14pt;
+        border-radius: 45px;
+        padding: 7px 0 5px;
+      }
+
+      @media only screen and (max-width: 800px) {
+        .slide_menu .slide_btns a {
+          font-size: 13pt;
+          line-height: 30px;
+          border-radius: 30px;
+        }
+      }
+
+      #slide_bg {
+        -webkit-filter: opacity(0%);
+        filter: opacity(0%);
+        pointer-events: none;
+      }
+
+      #fixed-button {
+        display: none;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        #fixed-button {
+          position: fixed;
+          z-index: 10;
+          bottom: 0;
+          width: 100vw;
+          height: 5rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          gap: 20px;
+          background-color: #fff;
+          border-top: solid 1px #ccc;
+          padding: 20px 10px;
+          -webkit-transform: translate(0, 5rem);
+          transform: translate(0, 5rem);
+          -webkit-transition: .3s ease;
+          transition: .3s ease;
+          -webkit-transition-property: -webkit-transform;
+          transition-property: -webkit-transform;
+          transition-property: transform;
+          transition-property: transform, -webkit-transform;
+        }
+        #fixed-button a {
+          min-width: 300px;
+          font-size: 13pt;
+        }
+      }
+
+      @media screen and (max-width: 699px) {
+        #fixed-button {
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          gap: 15px;
+          -webkit-transform: translate(0, 9rem);
+          transform: translate(0, 9rem);
+        }
+        #fixed-button a {
+          width: calc(50% - 7.5px);
+          min-width: unset;
+          padding: 3px 10px;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        #fixed-button {
+          padding: 20px 15px;
+        }
+        #fixed-button a {
+          font-size: 12pt;
+        }
+      }
+
+      @media screen and (max-width: 350px) {
+        #fixed-button a {
+          font-size: 10pt;
+        }
+      }
+
+      #fixed-button.show {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+
+      main {
+        width: 100%;
+        max-width: 100%;
+        padding-top: 4rem;
+        margin: 0 auto;
+      }
+
+      main section {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      main section:not(:last-of-type) {
+        margin-bottom: 7rem;
+      }
+
+      main section.full {
+        max-width: 100vw;
+      }
+
+      main section.full h2 {
+        max-width: 1200px;
+        margin: 0 auto 3rem auto;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section.full h2 {
+          margin-bottom: 2rem;
+        }
+      }
+
+      @media only screen and (max-width: 1280px) {
+        main section {
+          padding-left: 40px;
+          padding-right: 40px;
+        }
+        main section.no_pd {
+          padding-left: 0;
+          padding-right: 0;
+        }
+        main section.bg_gray {
+          padding-top: 6rem;
+          padding-bottom: 6rem;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        main section.no_pd {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      main section .sec_title {
+        margin-bottom: 3rem;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section .sec_title {
+          margin-bottom: 2rem;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section .sec_title {
+          text-align: center;
+        }
+      }
+
+      main section .border-box {
+        border: solid 1px #ccc;
+        border-radius: 10px;
+      }
+
+      main section .btn-wrap {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      main section .btn-wrap.flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+
+      main section#f-visual {
+        width: 1200px;
+        max-width: 100vw;
+        max-height: 80vh;
+        padding-top: 5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+
+      @media only screen and (max-height: 560px) {
+        main section#f-visual {
+          min-height: 450px;
+        }
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#f-visual {
+          max-height: none;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: start;
+          -ms-flex-align: start;
+          align-items: flex-start;
+          gap: 3rem 0;
+          padding-top: 2rem;
+          margin-bottom: 5rem;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#f-visual {
+          padding-top: 2rem;
+          margin-bottom: 4rem;
+        }
+      }
+
+      main section#f-visual .f-visual_text {
+        width: 600px;
+        max-width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        -webkit-transition-property: height;
+        transition-property: height;
+      }
+
+      @media screen and (max-width: 1199px) and (min-width: 1025px) {
+        main section#f-visual .f-visual_text {
+          width: 540px;
+          max-width: 45%;
+        }
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#f-visual .f-visual_text {
+          width: 100%;
+          max-width: 100%;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          text-align: center;
+        }
+      }
+
+      main section#f-visual .f-visual_text h1 {
+        letter-spacing: -.1rem;
+        margin: 0;
+      }
+
+      @media screen and (min-width: 1200px) {
+        main section#f-visual .f-visual_text h1 {
+          font-size: 38pt;
+          white-space: nowrap;
+        }
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#f-visual .f-visual_text h1 {
+          line-height: 1.2em;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#f-visual .f-visual_text h1 {
+          font-size: 11vw;
+        }
+      }
+
+      @media screen and (max-width: 559px) and (max-height: 720px) {
+        main section#f-visual .f-visual_text h1 {
+          font-size: 9vw;
+        }
+      }
+
+      main section#f-visual .f-visual_text h1 br.only_note {
+        display: none;
+      }
+
+      @media screen and (max-width: 1199px) and (min-width: 1025px) {
+        main section#f-visual .f-visual_text h1 br.only_note {
+          display: block;
+        }
+      }
+
+      main section#f-visual .f-visual_text p {
+        font-size: 16pt;
+        margin-top: 20px;
+      }
+
+      main section#f-visual .f-visual_img {
+        position: relative;
+        width: 600px;
+        max-width: 50%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        max-height: 90%;
+      }
+
+      @media screen and (max-width: 1199px) and (min-width: 1025px) {
+        main section#f-visual .f-visual_img {
+          width: 660px;
+          max-width: 55%;
+        }
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#f-visual .f-visual_img {
+          width: 100%;
+          max-width: 70%;
+          margin: 0 auto;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#f-visual .f-visual_img {
+          max-width: 100%;
+          -webkit-transform: translate(-1vw, 0);
+          transform: translate(-1vw, 0);
+        }
+      }
+
+      main section#f-visual .f-visual_img picture {
+        position: absolute;
+        z-index: 1;
+      }
+
+      main section#f-visual .f-visual_img picture#fv_pc {
+        position: unset;
+        width: 100%;
+        height: auto;
+      }
+
+      main section#f-visual .f-visual_img picture#fv_pc img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 330 / 193;
+      }
+
+      main section#f-visual .f-visual_img picture#fv_anniversary {
+        top: -12%;
+        right: 0;
+        width: 20%;
+        height: auto;
+      }
+
+      main section#f-visual .f-visual_img picture#fv_anniversary img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 33 / 31;
+      }
+
+      main section#f-visual .f-visual_img picture#fv_sp {
+        bottom: -10%;
+        right: 0;
+        width: 26%;
+        height: auto;
+      }
+
+      main section#f-visual .f-visual_img picture#fv_sp img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 172 / 333;
+      }
+
+      main section#f-visual .f-visual_btn__pc {
+        width: 80%;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#f-visual .f-visual_btn__tb {
+          width: 100%;
+        }
+      }
+
+      main section#f-visual .btn-wrap {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 15px 0;
+        margin-top: 20px;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#f-visual .btn-wrap {
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+        }
+      }
+
+      main section#f-visual .btn-wrap a {
+        display: block;
+        width: 100%;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#f-visual .btn-wrap a {
+          max-width: 70%;
+          font-size: 14pt;
+          line-height: 45px;
+          border-radius: 45px;
+          padding-top: 10px;
+          padding-bottom: 9px;
+        }
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#f-visual .btn-wrap a {
+          font-size: 14pt;
+          line-height: 35px;
+          border-radius: 35px;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#f-visual .btn-wrap a {
+          font-size: 13pt;
+          max-width: 100%;
+          padding-top: 7px;
+          padding-bottom: 4px;
+        }
+      }
+
+      main section#achievement {
+        padding-top: 20px;
+        margin-bottom: 6rem;
+        overflow-x: hidden;
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#achievement {
+          margin-bottom: 5rem;
+        }
+      }
+
+      main section#achievement .achievement_inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+      }
+
+      main section#achievement .achievement_inner:before, main section#achievement .achievement_inner:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 4rem;
+        background-image: url("images/2024/numbers_title_deco.png");
+        background-size: contain;
+        background-repeat: repeat-x;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        main section#achievement .achievement_inner:before, main section#achievement .achievement_inner:after {
+          background-size: cover;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#achievement .achievement_inner:before, main section#achievement .achievement_inner:after {
+          display: none;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap {
+        padding: 0 20px;
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#achievement .achievement_inner .achievement_text_wrap {
+          width: 100%;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 2rem;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link {
+        position: relative;
+        display: inline-block;
+        width: 29rem;
+        font-weight: bold;
+        color: #159eab;
+        background-color: rgba(115, 221, 214, 0.08);
+        border-radius: 10px;
+        padding: 4px;
+        overflow: hidden;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        -webkit-box-shadow: 0 0 10px rgba(128, 128, 128, 0);
+        box-shadow: 0 0 10px rgba(128, 128, 128, 0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transition-property: -webkit-transform, -webkit-box-shadow;
+        transition-property: -webkit-transform, -webkit-box-shadow;
+        transition-property: transform, box-shadow;
+        transition-property: transform, box-shadow, -webkit-transform, -webkit-box-shadow;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link {
+          width: 100%;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link img {
+        position: absolute;
+        z-index: -1;
+      }
+
+      @media screen and (max-width: 409px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link img {
+          opacity: .3;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link img.plane {
+        right: 0;
+        height: 75%;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link img.confetti {
+        top: 15%;
+        left: 0%;
+        height: 15%;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link img.confetti.top {
+        top: 2px;
+        left: 8%;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link .tenth_inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 2pt 0;
+        font-weight: bold;
+        color: #159eab;
+        padding: 12px 20px;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link .tenth_inner p {
+        font-size: 18pt;
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link .tenth_inner p {
+          font-size: 13pt;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link .tenth_inner span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 3pt;
+        font-size: 8pt;
+        letter-spacing: .04em;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link .tenth_inner span i {
+        font-size: 110%;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        main section#achievement .achievement_inner .achievement_text_wrap .tenth a.tenth_link:hover {
+          -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+          -webkit-box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .title,
+      main section#achievement .achievement_inner .achievement_text_wrap .subtitle {
+        text-align: center;
+        white-space: nowrap;
+      }
+
+      @media screen and (max-width: 399px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .title,
+        main section#achievement .achievement_inner .achievement_text_wrap .subtitle {
+          white-space: unset;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .title {
+        font-size: 25pt;
+        margin-bottom: 10px;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .title {
+          font-size: 22pt;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .title {
+          line-height: 2.5rem;
+          margin-bottom: 20px;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .title {
+          font-size: 18pt;
+        }
+      }
+
+      @media only screen and (max-width: 400px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .title {
+          font-size: 17pt;
+          line-height: 2rem;
+        }
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .title em {
+        font-size: 130%;
+        padding: 0 5px;
+      }
+
+      main section#achievement .achievement_inner .achievement_text_wrap .subtitle {
+        font-size: 16pt;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#achievement .achievement_inner .achievement_text_wrap .subtitle {
+          font-size: 13pt;
+        }
+      }
+
+      main section#achievement .achievement_logo {
+        margin-top: 2rem;
+        pointer-events: none;
+      }
+
+      main section#achievement .achievement_logo ul li {
+        width: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 12px 0;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#achievement .achievement_logo ul li {
+          gap: 10px 0;
+        }
+      }
+
+      main section#achievement .achievement_logo ul li picture {
+        max-width: 200px;
+        width: 100%;
+        max-height: 70px;
+        aspect-ratio: 400 / 142;
+      }
+
+      main section#achievement .achievement_logo ul li picture img {
+        max-width: 200px;
+        width: 100%;
+        max-height: 70px;
+        aspect-ratio: 400 / 142;
+      }
+
+      @media only screen and (max-width: 800px) {
+        main section#achievement .achievement_logo ul li picture img {
+          max-width: 180px;
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 560px) {
+        main section#achievement .achievement_logo ul li picture img {
+          max-width: 250px;
+          width: 100%;
+        }
+      }
+
+      main section#achievement .achievement_bottom {
+        width: 100%;
+        height: 4rem;
+        background-image: url("images/2024/numbers_title_deco.png");
+        background-size: contain;
+        background-repeat: repeat-x;
+        margin-top: 3rem;
+      }
+
+      /*# sourceMappingURL=../../../__cssmap/reserva_top/css/top_2024/preload_2024.css.map */
+    </style>
+
+    <link rel="stylesheet" href="/css/slick.min.css?v=v2026-04-02-01" type="text/css" media="all">
+    <link rel="stylesheet" href="/reserva/webfont/css/unicons.css?v=v2026-04-02-01" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/top_2024/style_2024.min.css?v=v2026-04-02-01" type="text/css" media="print" onload="this.media='all'">
+
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js?v=v2026-04-02-01" defer></script>
+    <script type="text/javascript" src="/js/slick.min.js?v=v2026-04-02-01" defer></script>
+    <script type="text/javascript" src="/reserva/js/top/top_2024.min.js?v=v2026-04-02-01" defer></script>
+    <script type="text/javascript" src="/js/ls.unveilhooks.min.js?v=v2026-04-02-01" defer></script>
+  <script>
+const sentry_opts = {
+  dsn: "https\u003A\/\/1d3aa6b07f432dcce1841fed906365aa\u0040o4509241528287232.ingest.us.sentry.io\/4509710943125504",
+  environment: "prd",
+  release: "v2026\u002D04\u002D02\u002D01"
+};
+
+if (!!sentry_opts['dsn']) {
+  window.sentryOnLoad = function () {
+    Sentry.init({
+      dsn: sentry_opts['dsn'],
+      environment: sentry_opts['environment'],
+      release: sentry_opts['release'],
+      ignoreErrors: [
+        // https://github.com/corp-ct/reserva-web/issues/2990
+        "TagError: adsbygoogle.push() error: No slot size for availableWidth=0",
+        // https://github.com/corp-ct/reserva-web/issues/1367
+        "ReferenceError: Can't find variable: height"
+      ]
+    });
+  }
+}
+</script>
+
+<script
+  src="https://browser.sentry-cdn.com/10.26.0/bundle.tracing.replay.min.js"
+  integrity="sha384-IQ15cIj+bFI0zfrypOMGcFUiCDKeMJDNcxuhx5WSWaCorlSvQ1Qde9dap7pV9hoV"
+  crossorigin="anonymous"
+></script>
+
+<script>
+if (!!sentry_opts['dsn']) {
+  window.Sentry &&
+    Sentry.onLoad(function () {
+      Sentry.lazyLoadIntegration("contextLinesIntegration").then(function (contextLinesIntegration) {
+        Sentry.addIntegration(contextLinesIntegration());
+      });
+    })
+}
+</script>
+  </head>
+
+  <body >
+          <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K94VQRS8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
+    <div id="load_bg"></div>
+    <div id="slide_bg"></div>
+    <!-- START HEADER -->
+    <header class="show fixed">
+      <div class="header_inner">
+        <div class="header_content">
+          <a class="header_logo" href="https://reserva.be/">
+            <img src="/images/2024/logo.png" width="96" height="17" alt="RESERVA Reservation">
+          </a>
+
+          <div class="header_menu">
+            <div class="header_menu_list">
+              <nav>
+                <ul>
+                  <li><a href="https://lp.reserva.be/function/" target="_blank">機能</a></li>
+                  <li><a href="https://lp.reserva.be/reservation/" target="_blank">対応業種</a></li>
+                  <li><a href="https://biz.reserva.be/price/" target="_blank">料金</a></li>
+                  <li><a href="https://reserva.be/reservamarketing" target="_blank">セミナー</a></li>
+                  <li><a href="https://reserva.be/magazine/" target="_blank">マガジン</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="header_btns">
+            <a href="https://id.reserva.be/adm/account/register?service=reserve" class="button main">無料で予約サイトを開設</a>
+            <a href="https://support.reserva.be/hc/ja/requests/new?ticket_form_id=222718" target="_blank" class="button sub primary">お問い合わせ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="header_signin">
+          <span class="signin_trigger">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.384" height="14.964" viewBox="0 0 15.384 14.964">
+              <defs>
+                <clipPath id="clip-path">
+                  <rect id="rect" data-name="rect" width="15.384" height="14.964" transform="translate(0 0)" fill="#333" />
+                </clipPath>
+              </defs>
+              <g id="signin_icon" data-name="signin_icon" clip-path="url(#clip-path)">
+                <path id="signin_path" data-name="signin_path" d="M10.633,7.913a4.5,4.5,0,1,0-5.882,0C2.617,9.16.9,11.721,0,14.964H2a12.494,12.494,0,0,1,1.387-3.026,7.492,7.492,0,0,1,2.1-2.223,3.977,3.977,0,0,1,2.2-.707H7.7a3.979,3.979,0,0,1,2.2.707,7.5,7.5,0,0,1,2.1,2.223,12.519,12.519,0,0,1,1.387,3.026h2c-.9-3.243-2.617-5.8-4.751-7.051M5.111,4.5A2.581,2.581,0,1,1,7.7,7.085H7.688A2.584,2.584,0,0,1,5.111,4.5" transform="translate(0 0)" fill="#333" />
+              </g>
+            </svg>
+            ログイン
+          </span>
+
+          <nav class="signin_menu">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+              <li><a class="ga" data-label="Login" href="/rsv/login">RESERVA予約ログイン</a></li>
+              <li><a class="ga" data-label="Login" href="https://home.reserva.be/adm">RESERVA多店舗管理ログイン</a></li>
             </ul>
+          </nav>
+        </div>
+
+        <span class="header_icon-wrap">
+          <span class="header_icon"></span>
+        </span>
+      </div>
+    </header>
+
+    <div class="slide_menu">
+      <div class="slide_menu_list">
+        <nav>
+          <ul>
+            <li><a href="https://lp.reserva.be/function/" target="_blank">機能</a></li>
+            <li><a href="https://lp.reserva.be/reservation/" target="_blank">対応業種</a></li>
+            <li><a href="https://biz.reserva.be/price/" target="_blank">料金</a></li>
+            <li><a href="https://reserva.be/reservamarketing" target="_blank">セミナー</a></li>
+            <li><a href="https://reserva.be/magazine/" target="_blank">マガジン</a></li>
+          </ul>
         </nav>
-    </footer>
+      </div>
+
+      <div class="slide_btns">
+      <a href="https://id.reserva.be/adm/account/register?service=reserve" class="button main">無料で予約サイトを開設</a>
+      <a href="https://support.reserva.be/hc/ja/requests/new?ticket_form_id=222718" target="_blank" class="button sub primary">お問い合わせ</a>
+      </div>
+    </div>
+    <!-- END HEADER -->
+
+      <main>
+    <!-- START FIXED CONVERSION BUTTON -->
+    <div id="fixed-button">
+      <a href="https://id.reserva.be/adm/account/register?service=reserve" class="button main">無料でサイト開設</a>
+      <a href="https://support.reserva.be/hc/ja/requests/new?ticket_form_id=222718" target="_blank" class="button sub primary">お問い合わせ</a>
+    </div>
+    <!-- END FIXED CONVERSION BUTTON -->
+
+    <!-- START MAIN VISUAL -->
+    <section id="f-visual">
+      <div class="f-visual_text">
+        <div>
+          <h1>予約システムで<br>ビジネスを<br class="only_note">アップグレード</h1>
+          <p>予約受付も顧客管理も、0円で。</p>
+        </div>
+        <div class="f-visual_btn__pc tb_none sp_none">
+          <div id="f-visual_cv_btn" class="btn-wrap flex">
+            <a href="https://id.reserva.be/adm/account/register?service=reserve" class="button body main" data-label="Firstview">無料で予約サイトを開設</a>
+            <a href="https://20168495.hs-sites-na2.com/reserva-download-document-page" class="button body sub" target="_blank" data-label="Firstview">資料ダウンロード</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="f-visual_img">
+        <picture id="fv_pc">
+          <source type="image/webp" srcset="/images/2024/fv-mock_pc.webp?v=v2026-04-02-01">
+          <img srcset="/images/2024/fv-mock_pc.png?v=v2026-04-02-01 1400w, /images/2024/fv-mock_pc_min.png?v=v2026-04-02-01 700w" size="(max-width:800px) 700px, 1400px" src="/images/2024/fv-mock_pc.png?v=v2026-04-02-01" width="660" height="385.55" fetchpriority="high" alt="" loading="eager" decoding="async">
+        </picture>
+        <picture id="fv_sp">
+          <source type="image/webp" srcset="/images/2024/fv-mock_sp.webp?v=v2026-04-02-01">
+          <img srcset="/images/2024/fv-mock_sp.png?v=v2026-04-02-01 515w, /images/2024/fv-mock_sp_min.png 309w?v=v2026-04-02-01" size="(max-width:800px) 309px, 515px" src="/images/2024/fv-mock_sp.png?v=v2026-04-02-01" width="172" height="333" fetchpriority="high" alt="" loading="eager" decoding="async">
+        </picture>
+      </div>
+
+      <div class="f-visual_btn__tb pc_none"></div>
+    </section>
+    <!-- END MAIN VISUAL -->
+
+    <!-- START COMPANY achievement -->
+    <section id="achievement" class="full no_pd" oncontextmenu="return false;">
+      <div class="achievement_inner">
+        <div class="achievement_text_wrap">
+          <p class="title bold">累計導入社数<em>350,000</em>社以上</p>
+          <p class="subtitle bold">様々な業種の事業者様から、<br class="pc_none tb_none">最も選ばれている予約システムです</p>
+        </div>
+      </div>
+      <div class="achievement_logo">
+        <ul class="achievement_logo_list">
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/toyota-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/toyota-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="豊田市" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/jr-tokai-hotels.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/jr-tokai-hotels.jpg?v=v2026-04-02-01" width="400" height="142" alt="JR東海ホテルズ" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/keio.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/keio.jpg?v=v2026-04-02-01" width="400" height="142" alt="京王電鉄" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/tama-art-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/tama-art-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="多摩美術大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/chiba-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/chiba-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="千葉大学" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/nhk.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/nhk.jpg?v=v2026-04-02-01" width="400" height="142" alt="NHK" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/volvo.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/volvo.jpg?v=v2026-04-02-01" width="400" height="142" alt="volvo" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/osaka-prf.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/osaka-prf.jpg?v=v2026-04-02-01" width="400" height="142" alt="大阪府" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/fiac.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/fiac.jpg?v=v2026-04-02-01" width="400" height="142" alt="福岡国際空港" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/tokyo-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/tokyo-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="東京大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/tokyo-shoko.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/tokyo-shoko.jpg?v=v2026-04-02-01" width="400" height="142" alt="東京商工会議所" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/yokohama-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/yokohama-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="横浜市" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/meti.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/meti.jpg?v=v2026-04-02-01" width="400" height="142" alt="経済産業省" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/aeon-mall.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/aeon-mall.jpg?v=v2026-04-02-01" width="400" height="142" alt="イオンモール" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/mhlw.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/mhlw.png?v=v2026-04-02-01" width="400" height="142" alt="厚生労働省" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/itochu-shoji.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/itochu-shoji.jpg?v=v2026-04-02-01" width="400" height="142" alt="伊藤忠商事" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/keiou-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/keiou-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="慶應義塾大学" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/jaxa.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/jaxa.jpg?v=v2026-04-02-01" width="400" height="142" alt="jaxa" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/fuji-film.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/fuji-film.jpg?v=v2026-04-02-01" width="400" height="142" alt="フジフィルム" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kintetsu.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kintetsu.jpg?v=v2026-04-02-01" width="400" height="142" alt="近鉄百貨店" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/softbank.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/softbank.png?v=v2026-04-02-01" width="400" height="142" alt="softbank" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/asahi-shinbun.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/asahi-shinbun.jpg?v=v2026-04-02-01" width="400" height="142" alt="朝日新聞" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/scsk.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/scsk.jpg?v=v2026-04-02-01" width="400" height="142" alt="SCSK" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/toyota.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/toyota.jpg?v=v2026-04-02-01" width="400" height="142" alt="toyota" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/fuji-television.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/fuji-television.jpg?v=v2026-04-02-01" width="400" height="142" alt="フジテレビ" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/tohoku-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/tohoku-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="東北大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/shiseido.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/shiseido.jpg?v=v2026-04-02-01" width="400" height="142" alt="資生堂" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/waseda-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/waseda-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="早稲田大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kariya-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kariya-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="刈谷市" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/mitsui-hudosan.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/mitsui-hudosan.jpg?v=v2026-04-02-01" width="400" height="142" alt="三井不動産" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/yomiuri-shinbun.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/yomiuri-shinbun.jpg?v=v2026-04-02-01" width="400" height="142" alt="読売新聞" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/nippon-steel.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/nippon-steel.jpg?v=v2026-04-02-01" width="400" height="142" alt="日本製鉄" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/benz.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/benz.png?v=v2026-04-02-01" width="400" height="142" alt="ベンツ" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/camk.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/camk.jpg?v=v2026-04-02-01" width="400" height="142" alt="熊本市現代美術館" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/mitsubishi-jisho.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/mitsubishi-jisho.jpg?v=v2026-04-02-01" width="400" height="142" alt="三菱地所" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/yahoo-japan.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/yahoo-japan.jpg?v=v2026-04-02-01" width="400" height="142" alt="yahoo japan" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/tsukuba-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/tsukuba-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="筑波大学" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/momat.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/momat.jpg?v=v2026-04-02-01" width="400" height="142" alt="東京国立近代美術館" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/saitama-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/saitama-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="さいたま市" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/hitotsubashi-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/hitotsubashi-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="一橋大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/keisei-group.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/keisei-group.jpg?v=v2026-04-02-01" width="400" height="142" alt="京成グループ" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/edogawa-ward.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/edogawa-ward.jpg?v=v2026-04-02-01" width="400" height="142" alt="江戸川区" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/saga-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/saga-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="佐賀大学" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/yucho-bank.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/yucho-bank.jpg?v=v2026-04-02-01" width="400" height="142" alt="ゆうちょ銀行" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/okayama-prf.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/okayama-prf.jpg?v=v2026-04-02-01" width="400" height="142" alt="岡山県" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kawasaki-powering.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kawasaki-powering.jpg?v=v2026-04-02-01" width="400" height="142" alt="川崎重工" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/marugame-seimen.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/marugame-seimen.jpg?v=v2026-04-02-01" width="400" height="142" alt="丸亀製麺" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/ritsumeikan-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/ritsumeikan-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="立命館大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kansai-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kansai-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="関西大学" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/doshisha-unv.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/doshisha-unv.jpg?v=v2026-04-02-01" width="400" height="142" alt="同志社大学" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/tdk.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/tdk.jpg?v=v2026-04-02-01" width="400" height="142" alt="tdk" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/sapporo-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/sapporo-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="札幌市" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/fukushima-prf.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/fukushima-prf.jpg?v=v2026-04-02-01" width="400" height="142" alt="福島県" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/house-foods.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/house-foods.jpg?v=v2026-04-02-01" width="400" height="142" alt="ハウス食品" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kajima-kensetsu.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kajima-kensetsu.jpg?v=v2026-04-02-01" width="400" height="142" alt="鹿島建設" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/asahi-shuzou.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/asahi-shuzou.jpg?v=v2026-04-02-01" width="400" height="142" alt="旭酒造" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/daiwa-lease.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/daiwa-lease.jpg?v=v2026-04-02-01" width="400" height="142" alt="大和リース" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/mister-donuts.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/mister-donuts.jpg?v=v2026-04-02-01" width="400" height="142" alt="ミスタードーナッツ" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kobe-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kobe-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="神戸市" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/torai.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/torai.jpg?v=v2026-04-02-01" width="400" height="142" alt="家庭教師のトライ" decording="async">
+            </picture>
+          </li>
+          <li class="achievement_logo_item">
+            <picture>
+              <source type="image/webp" srcset="/images/2024/nikkei.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/nikkei.jpg?v=v2026-04-02-01" width="400" height="142" alt="nikkei" decording="async">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/kyoto-city.webp?v=v2026-04-02-01">
+              <img data-lazy="/images/2024/kyoto-city.jpg?v=v2026-04-02-01" width="400" height="142" alt="京都市" decording="async">
+            </picture>
+          </li>
+        </ul>
+      </div>
+
+      <div class="achievement_bottom pc_none tb_none"></div>
+    </section>
+    <!-- END COMPANY achievement -->
+
+    <!-- START ADVANTAGES -->
+    <section class="advantages full show">
+
+      <div class="advantages_content">
+        <div id="advantage-1" class="advantage show">
+          <div class="advantage_title_area">
+            <p class="subtitle bold">RESERVA予約の特長&nbsp;<em>01</em></p>
+            <p class="title bold">設定したら、<br>すぐにオープン</p>
+          </div>
+          <div class="advantage_img_area">
+            <div class="advantages_img_area_inner">
+              <div class="advantages_img_slide_item">
+                <div class="advantages_img_screen">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-1_screen_tb.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-1_screen_tb.png?v=v2026-04-02-01 1200w, /images/2024/ad-1_screen_tb_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-1_screen_tb.png?v=v2026-04-02-01" width="517" height="344" loading="eager" decording="async" alt="">
+                  </picture>
+                </div>
+                <div class="advantages_img_pop">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-1_pop.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-1_pop.png?v=v2026-04-02-01 1200w, /images/2024/ad-1_pop_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-1_pop.png?v=v2026-04-02-01" width="517" height="344" decording="async" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantage_txt_area">
+            <ul>
+              <li>シンプルな操作性であっという間に設定完了</li>
+              <li>複雑な設定は一切なく、誰でもかんたんにサイト開設</li>
+              <li>開設したその瞬間から、すぐに予約受付を開始</li>
+              <li>自社サイトへの埋め込み機能も完備</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="advantage-2" class="advantage">
+          <div class="advantage_title_area">
+            <p class="subtitle bold">RESERVA予約の特長&nbsp;<em>02</em></p>
+            <p class="title bold">受付業務を省略し、<br>コストも削減</p>
+          </div>
+          <div class="advantage_img_area">
+            <div class="advantages_img_area_inner">
+              <div class="advantages_img_slide_item">
+                <div class="advantages_img_screen">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-2_screen_tb.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-2_screen_tb.png?v=v2026-04-02-01 1200w, /images/2024/ad-2_screen_tb_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-2_screen_tb.png?v=v2026-04-02-01" width="517" height="344" loading="eager" decording="async" alt="">
+                  </picture>
+                </div>
+                <div class="advantages_img_pop">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-2_pop.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-2_pop.png?v=v2026-04-02-01 1200w, /images/2024/ad-2_pop_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-2_pop.png?v=v2026-04-02-01" width="517" height="344" decording="async" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantage_txt_area">
+            <ul>
+              <li>オンライン決済機能で当日の会計が不要に</li>
+              <li>QRコード受付アプリやセルフチェックイン機能で、来店・来場時の業務負担を軽減</li>
+              <li>受付スタッフの配置を減らし、人件費を削減</li>
+              <li>混雑を回避したスムーズな入場を実現</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="advantage-3" class="advantage">
+          <div class="advantage_title_area">
+            <p class="subtitle bold">RESERVA予約の特長&nbsp;<em>03</em></p>
+            <p class="title bold">決済、集客まで<br>全てお任せ</p>
+          </div>
+          <div class="advantage_img_area">
+            <div class="advantages_img_area_inner">
+              <div class="advantages_img_slide_item">
+                <div class="advantages_img_screen">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-3_screen_tb.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-3_screen_tb.png?v=v2026-04-02-01 1200w, /images/2024/ad-3_screen_tb_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-3_screen_tb.png?v=v2026-04-02-01" width="517" height="344" loading="eager" decording="async" alt="">
+                  </picture>
+                </div>
+                <div class="advantages_img_pop">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-3_pop.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-3_pop.png?v=v2026-04-02-01 1200w, /images/2024/ad-3_pop_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-3_pop.png?v=v2026-04-02-01" width="517" height="344" decording="async" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantage_txt_area">
+            <ul>
+              <li>予約受付→決済→顧客管理→集客まで、たった1つで完結</li>
+              <li>Googleカレンダーとの双方向連携でスケジュール管理をスムーズに</li>
+              <li>メルマガやクーポンの配信、予約抽選まで、すべて自動で</li>
+              <li>LINE連携で予約のハードルを下げる</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="advantage-4" class="advantage">
+          <div class="advantage_title_area">
+            <p class="subtitle bold">RESERVA予約の特長&nbsp;<em>04</em></p>
+            <p class="title bold">ビジネスの可能性を<br>拡げる</p>
+          </div>
+          <div class="advantage_img_area">
+            <div class="advantages_img_area_inner">
+              <div class="advantages_img_slide_item">
+                <div class="advantages_img_screen">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-4_screen_tb.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-4_screen_tb.png?v=v2026-04-02-01 1200w, /images/2024/ad-4_screen_tb_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-4_screen_tb.png?v=v2026-04-02-01" width="517" height="344" loading="lazy" decording="async" alt="">
+                  </picture>
+                </div>
+                <div class="advantages_img_pop">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-4_pop.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-4_pop.png?v=v2026-04-02-01 1200w, /images/2024/ad-4_pop_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-4_pop.png?v=v2026-04-02-01" width="517" height="344" decording="async" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantage_txt_area">
+            <ul>
+              <li>100種類以上の豊富な機能に加え、あらゆる外部サービスとの連携も充実</li>
+              <li>Zoomでのオンラインレッスンや、スマートロックでの施設無人運営まで</li>
+              <li>予約時のアンケート機能でデータ収集が可能に</li>
+              <li>多言語設定で訪日インバウンド向けサービスにも対応</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="advantage-5" class="advantage">
+          <div class="advantage_title_area">
+            <p class="subtitle bold">RESERVA予約の特長&nbsp;<em>05</em></p>
+            <p class="title bold">予約数増加で<br>売り上げもアップ</p>
+          </div>
+          <div class="advantage_img_area">
+            <div class="advantages_img_area_inner">
+              <div class="advantages_img_slide_item">
+                <div class="advantages_img_screen">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-5_screen_tb.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-5_screen_tb.png?v=v2026-04-02-01 1200w, /images/2024/ad-5_screen_tb_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-5_screen_tb.png?v=v2026-04-02-01" width="517" height="344" loading="lazy" decording="async" alt="">
+                  </picture>
+                </div>
+                <div class="advantages_img_pop">
+                  <picture>
+                    <source type="image/webp" srcset="/images/2024/ad-5_pop.webp?v=v2026-04-02-01">
+                    <img srcset="/images/2024/ad-5_pop.png?v=v2026-04-02-01 1200w, /images/2024/ad-5_pop_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/ad-5_pop.png?v=v2026-04-02-01" width="517" height="344" decording="async" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantage_txt_area">
+            <ul>
+              <li>24時間365日予約を受け付け、接客中や営業時間外の取りこぼしをなくす</li>
+              <li>月額サブスク機能や回数券機能で、安定した予約獲得を実現</li>
+              <li>クーポン配信によって顧客のリピートを促進</li>
+              <li>予約件数の推移をグラフで可視化、集客に役立つ分析機能を搭載</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="advantages_sticky_img">
+        <div class="advantages_sticky_img_wrap">
+          <div class="advantages_sticky_content">
+            <div class="advantages_sticky_item img1 show"></div>
+            <div class="advantages_sticky_item img2"></div>
+            <div class="advantages_sticky_item img3"></div>
+            <div class="advantages_sticky_item img4"></div>
+            <div class="advantages_sticky_item img5"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ADVANTAGES -->
+
+    <!-- START INTEGRATION -->
+    <section id="integration">
+      <h2 class="sec_title">RESERVAなら、多店舗運営もまとめて管理</h2>
+      <div class="integration_content">
+        <div class="integration_txt">
+          <ul>
+            <li>複数店舗の予約サイトを1つのアカウントに統合できる</li>
+            <li>店舗ごとの予約情報や売上情報を一括で管理</li>
+            <li>各店舗の予約サイトを集約した予約ページを作成</li>
+          </ul>
+        </div>
+        <div class="integration_img">
+          <picture>
+            <source type="image/webp" srcset="/images/2024/intg_img.webp?v=v2026-04-02-01">
+            <img srcset="/images/2024/intg_img.png?v=v2026-04-02-01 1200w, /images/2024/intg_img_min.png?v=v2026-04-02-01 600w" size="(max-width:800px) 600px, 1200px" src="/images/2024/intg_img.png?v=v2026-04-02-01" width="660" height="310" alt="" fetchpriority="low" loading="lazy" decoding="async">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- END INTEGRATION -->
+
+    <!-- START INDUSTRY TYPES -->
+    <section id="type">
+      <h2 class="sec_title">350以上の業種に対応</h2>
+
+      <ul class="type_list">
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/facility/" target="_blank">
+            <p class="bold">施設・会場</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_facility.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_facility.jpg?v=v2026-04-02-01 350w, /images/2024/inds_facility_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_facility.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/facility/shootingstudio/" target="_blank">撮影スタジオ</a></li>
+              <li><a href="https://lp.reserva.be/reservation/facility/seminar/" target="_blank">セミナー会場</a></li>
+              <li><a href="https://lp.reserva.be/reservation/facility/concert/" target="_blank">コンサート会場</a></li>
+              <li><a href="https://lp.reserva.be/reservation/smartlock/rentalconferenceroom/" target="_blank">貸し会議室</a></li>
+              <li><a href="https://lp.reserva.be/reservation/facility/rentalspace" target="_blank">レンタルスペース</a></li>
+              <li><a href="https://lp.reserva.be/reservation/facility/coworkingspace/" target="_blank">コワーキングスペース</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/beautysalon/" target="_blank">
+            <p class="bold">サロン</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_salon.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_salon.jpg?v=v2026-04-02-01 350w, /images/2024/inds_salon_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_salon.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/beautysalon/hairsalon/" target="_blank">ヘアサロン</a></li>
+              <li><a href="https://lp.reserva.be/reservation/beautysalon/nailsalon/" target="_blank">ネイルサロン</a></li>
+              <li><a href="https://lp.reserva.be/reservation/beautysalon/treatment/" target="_blank">エステサロン</a></li>
+              <li><a href="https://lp.reserva.be/reservation/beautysalon/whiteningsalon/" target="_blank">ホワイトニング</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/lodging/" target="_blank">
+            <p class="bold">宿泊施設</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_hotel.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_hotel.jpg?v=v2026-04-02-01 350w, /images/2024/inds_hotel_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_hotel.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/lodging/businesshotel/" target="_blank">ビジネスホテル</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/ryokan/" target="_blank">旅館</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/bb/" target="_blank">ペンション</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/minpaku/" target="_blank">民泊</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/machiya/" target="_blank">町屋</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/minshuku/" target="_blank">民宿</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/hoyojo/" target="_blank">保養所</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/hostel/" target="_blank">ホステル・ゲストハウス</a></li>
+              <li><a href="https://lp.reserva.be/reservation/lodging/vacationrental/" target="_blank">貸し別荘</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/events/" target="_blank">
+            <p class="bold">イベント</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_event.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_event.jpg?v=v2026-04-02-01 350w, /images/2024/inds_event_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_event_min.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/seminar/lecture/" target="_blank">講演会</a></li>
+              <li><a href="https://lp.reserva.be/reservation/seminar/seminar/" target="_blank">セミナー</a></li>
+              <li><a href="https://lp.reserva.be/reservation/seminar/groupstudy/" target="_blank">講習会</a></li>
+              <li><a href="https://lp.reserva.be/reservation/seminar/companysession/" target="_blank">会社説明会</a></li>
+              <li><a href="https://lp.reserva.be/reservation/events/filmfestival/" target="_blank">映画祭</a></li>
+              <li><a href="https://lp.reserva.be/reservation/events/photosession/" target="_blank">握手会・撮影会</a></li>
+              <li><a href="https://lp.reserva.be/reservation/events/actionmarriage/" target="_blank">婚活パーティー</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/school/" target="_blank">
+            <p class="bold">スクール・教室</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_class.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_class.jpg?v=v2026-04-02-01 350w, /images/2024/inds_class_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_class.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/school/yoga/" target="_blank">ヨガ教室</a></li>
+              <li><a href="https://lp.reserva.be/reservation/school/language/" target="_blank">語学教室</a></li>
+              <li><a href="https://lp.reserva.be/reservation/school/cooking/" target="_blank">料理教室</a></li>
+              <li><a href="https://lp.reserva.be/reservation/school/music/" target="_blank">音楽教室</a></li>
+              <li><a href="https://lp.reserva.be/reservation/school/shikaku/" target="_blank">資格取得講座</a></li>
+              <li><a href="https://lp.reserva.be/reservation/school/dance/" target="_blank">ダンススクール</a></li>
+              <li><a href="https://lp.reserva.be/reservation/school/parenting/" target="_blank">子育て教室</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/massageclinic/" target="_blank">
+            <p class="bold">マッサージ・治療院</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_massage.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_massage.jpg?v=v2026-04-02-01 350w, /images/2024/inds_massage_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_massage.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/massage/" target="_blank">マッサージ</a></li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/relaxationsalon/" target="_blank">リラクゼーションサロン</a>
+              </li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/medicalspa/" target="_blank">メディカルスパ</a></li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/aromasalon/" target="_blank">アロマサロン</a></li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/healingsalon/" target="_blank">ヒーリングサロン</a></li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/manipulativetreatment/" target="_blank">整体・鍼灸院・治療院</a></li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/ayurveda/" target="_blank">アーユルヴェーダ</a></li>
+              <li><a href="https://lp.reserva.be/reservation/massageclinic/osteopathy" target="_blank">接骨院・整体院</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/kenshin/" target="_blank">
+            <p class="bold">健康診断・検診</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_medical-exam.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_medical-exam.jpg?v=v2026-04-02-01 350w, /images/2024/inds_medical-exam_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_medical-exam.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/kenshin/corporation/" target="_blank">企業の健康診断</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/kenpo/" target="_blank">健康保険組合の健康診断</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/doc/" target="_blank">人間ドック</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/vaccine/" target="_blank">予防接種</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/cancer/" target="_blank">がん検診</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/pet/" target="_blank">PET検診</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/gynecology/" target="_blank">婦人科検診</a></li>
+              <li><a href="https://lp.reserva.be/reservation/clinic/antibodytest/" target="_blank">抗体検査</a></li>
+              <li><a href="https://lp.reserva.be/reservation/kenshin/healthguidance/" target="_blank">特定保健指導</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/acceptance/" target="_blank">
+            <p class="bold">窓口・来店接客</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_acceptance.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_acceptance.jpg?v=v2026-04-02-01 350w, /images/2024/inds_acceptance_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_acceptance.jpg?v=v2026-04-02-01" width="388" height="154.3" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/acceptance/smartphonerepair/" target="_blank">スマホ修理・携帯修理ショップ</a></li>
+              <li><a href="https://lp.reserva.be/reservation/acceptance/temporarystaffing/" target="_blank">人材派遣相談</a></li>
+              <li><a href="https://lp.reserva.be/reservation/rental-service/eventgoodsrental/" target="_blank">イベント用品レンタル</a></li>
+              <li><a href="https://lp.reserva.be/reservation/rental-service/try-wedding-dress/" target="_blank">ウェディングドレス試着</a></li>
+              <li><a href="https://lp.reserva.be/reservation/acceptance/jewelry/" target="_blank">ジュエリー・来店予約</a></li>
+              <li><a href="https://lp.reserva.be/reservation/acceptance/antenna-shop/" target="_blank">アンテナショップ</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-box">
+          <a class="type_list_link" href="https://lp.reserva.be/reservation/publicfacility/" target="_blank">
+            <p class="bold">自治体・官公庁</p>
+            <picture>
+              <source type="image/webp" srcset="/images/2024/inds_public.webp?v=v2026-04-02-01">
+              <img srcset="/images/2024/inds_public.jpg?v=v2026-04-02-01 350w, /images/2024/inds_public_min.jpg?v=v2026-04-02-01 200w" size="(max-width:800px) 200px, 350px" src="/images/2024/inds_public.jpg?v=v2026-04-02-01" alt="" fetchpriority="low" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <div class="type_list_text">
+            <ul class="type_list_tag">
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/final-tax-return/" target="_blank">確定申告</a></li>
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/cityoffice/" target="_blank">市役所・区役所</a></li>
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/cultural/" target="_blank">公共文化施設</a></li>
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/sportsfacilities/" target="_blank">公共スポーツ施設</a></li>
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/application-for-individualnumbercards/" target="_blank">マイナンバーカード</a></li>
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/assembly/" target="_blank">集会所・ホール</a></li>
+              <li><a href="https://lp.reserva.be/reservation/publicfacility/library/" target="_blank">図書館</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div class="btn-wrap">
+        <a class="button body sub" href="https://lp.reserva.be/reservation/" target="_blank">他の業種を見る</a>
+      </div>
+    </section>
+    <!-- END INDUSTRY TYPES -->
+
+    <!-- START USERS VOICE -->
+    <section id="voice" class="full">
+      <h2 class="sec_title center">導入事例</h2>
+      <!-- START SLIDER -->
+      <ul class="voice_list">
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-nihonbashi-nishikawa/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/nemuri-no-sodanshitsu.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/nemuri-no-sodanshitsu.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                事前にお客様の悩みを知ることができ、的確なサービス提供が実現できました。
+              </p>
+              <div class="voice_item_name">日本橋西川（ねむりの相談所）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-minori-no-mori/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-uservoice-minori-no-mori.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-uservoice-minori-no-mori.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                自動的に管理してもらえることで、本来の提供したいサービスに集中することができます。
+              </p>
+              <div class="voice_item_name">一般社団法人　実りの森（心理カウンセリング）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-absoluteblue/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-usersvoice-absoluteblue.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-usersvoice-absoluteblue.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                お客様から「予約サイトがかっこよくなったね」と言われるようになりました。
+              </p>
+              <div class="voice_item_name">Absolute Blue（ライブハウス）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-pelican-golf-range/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/pelican-golf-range.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/pelican-golf-range.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                どの世代のお客様もかんたんに予約が取れているので満足しています。
+              </p>
+              <div class="voice_item_name">ペリカンゴルフレンジ（インドアゴルフ施設）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-mori-no-retreat-foresta-di-luce/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/retreat-foresta-di-luce.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/retreat-foresta-di-luce.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                機能が充実しているため、理想の運用が実現できました。
+              </p>
+              <div class="voice_item_name">森のRetreat～foresta di luce～（宿泊施設）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-mamanahouse/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img_mamana-house.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img_mamana-house.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                予約する際に残席数を確認して参加を判断いただけるようになり、すごくありがたいです。
+              </p>
+              <div class="voice_item_name">助産院mamana.house（助産院）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-ginza-sozen-treatment/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-usersvoice-ginzasouzen.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-usersvoice-ginzasouzen.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                導入後10日も経たないうちに効果を実感しました。
+              </p>
+              <div class="voice_item_name">銀座そうぜん鍼灸院（鍼灸院）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-maoko-abacus/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img_maoko-abacus.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img_maoko-abacus.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                RESERVAではサイト上で回数券を使って予約やキャンセルができるので、管理がとても楽になりました。
+              </p>
+              <div class="voice_item_name">Maoko Abacus（そろばん教室）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-pilates-studio-nicori/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-usersvoice-nicori.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-usersvoice-nicori.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                リピートが増えて売り上げがアップしました。
+              </p>
+              <div class="voice_item_name">Pilates Studio nicori（ピラティススタジオ）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-tokyo-ibiki-clinic/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/tokyo-ibiki-clinic.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/tokyo-ibiki-clinic.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                シンプルな操作性で、予約のハードルを下げることができました。
+              </p>
+              <div class="voice_item_name">東京イビキクリニック（クリニック）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-studiobridges/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img_studio-bridges.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img_studio-bridges.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                スマートロック連携により遠隔操作ができるようになりました。
+              </p>
+              <div class="voice_item_name">Studio BRIDGES（ダンススタジオ）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-studio-lighthope-yoga-lesson/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-usersvoice-lighthope.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-usersvoice-lighthope.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                経理の面でも有効な活用ができています。
+              </p>
+              <div class="voice_item_name">スタジオ Light Hope（ヨガ教室）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-tokyomisawa-jobinterview-school/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-usersvoice-tokyomisawa.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-usersvoice-tokyomisawa.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                「予約が取りやすかったです」と言っていただくことが増えました。
+              </p>
+              <div class="voice_item_name">東京三澤面接塾（面接塾）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-happyribon-jewelryshop/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img_happy-ribon.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img_happy-ribon.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                問い合わせに対応する労力が掛からなくなったことで、予約管理にかかる時間・労力の負荷軽減につながりました。
+              </p>
+              <div class="voice_item_name">Happy Ribon（指輪制作体験）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-kotobanosodanshitsukotori/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/img-usersvoice-_kotori.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/img-usersvoice-_kotori.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                空いている時間にかんたんに予約できると好評です。
+              </p>
+              <div class="voice_item_name">ことばの相談室ことり（言語聴覚士による相談室）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-golhausprivate/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/golhouse-private.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/golhouse-private.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                一切人件費がかからない理想の無人運営が実現しました。
+              </p>
+              <div class="voice_item_name">ゴルハウスプライベート（インドアゴルフ施設）</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="voice_item">
+          <a class="voice_item_link" href="https://reserva.be/magazine/case-study-reserva-teorikobo-jota/" target="_blank">
+            <div class="voice_item_img" oncontextmenu="return false;">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/teori-kobo-jouta.webp?v=v2026-04-02-01">
+                <img data-lazy="/images/2024/teori-kobo-jouta.jpg?v=v2026-04-02-01" width="381.45" height="250" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="voice_item_text">
+              <p class="voice_item_heading bold">
+                空席が自動的に埋まるようになって本当に助かりました。
+              </p>
+              <div class="voice_item_name">手織工房じょうた（手織り教室）</div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+      <!-- END SLIDER -->
+      <div class="btn-wrap">
+        <a href="https://reserva.be/magazine/cat/case-study/" target="_blank" data-label="Modal-Interview" class="button body sub">他の事例を見る</a>
+      </div>
+    </section>
+    <!-- END USERS VOICE -->
+
+
+    <!-- START PLAN -->
+    <section id="plan" class="full bg_gray">
+      <h2 class="sec_title center">選べる料金プラン</h2>
+      <ul class="plan_list">
+
+        <li class="plan_list_item border-box free">
+          <div class="plan_list_item_head">
+            <span>無料で使いたい方へ</span>
+            <p class="bold">フリー</p>
+          </div>
+          <div class="plan_list_item_price">
+            <p class="bold"><em>0</em>円 / 月
+              <span>（年払い）</span>
+            </p>
+          </div>
+          <div class="plan_list_item_body">
+            予約システムが<br class="sp_none">無料で使える
+          </div>
+          <div class="plan_list_item_bottom">
+            <a href="https://biz.reserva.be/price/#reservation" class="button sub" target="_blank" data-label="Price-Free-Detail">詳しく見る</a>
+          </div>
+        </li>
+
+        <li class="plan_list_item border-box silver">
+          <div class="plan_list_item_head">
+            <span>広告を非表示にしたい方へ</span>
+            <p class="bold">シルバー</p>
+          </div>
+          <div class="plan_list_item_price">
+            <p class="bold"><em>6,600</em>円 / 月
+              <span>（年払い）</span>
+            </p>
+          </div>
+          <div class="plan_list_item_body">
+            広告非表示の<br class="sp_none">予約システムを導入
+          </div>
+          <div class="plan_list_item_bottom">
+            <a href="https://biz.reserva.be/price/#reservation" class="button sub" target="_blank" data-label="Price-Silver-Detail">詳しく見る</a>
+          </div>
+        </li>
+
+        <li class="plan_list_item border-box gold">
+          <div class="plan_list_item_head">
+            <span>自動化を促進したい方へ</span>
+            <p class="bold">ゴールド</p>
+          </div>
+          <div class="plan_list_item_price">
+            <p class="bold"><em>13,200</em>円 / 月
+              <span>（年払い）</span>
+            </p>
+          </div>
+          <div class="plan_list_item_body">
+            豊富な機能を備えた<br class="sp_none">人気プラン
+          </div>
+          <div class="plan_list_item_bottom">
+            <a href="https://biz.reserva.be/price/#reservation" class="button sub" target="_blank" data-label="Price-Gold-Detail">詳しく見る</a>
+          </div>
+        </li>
+
+        <li class="plan_list_item border-box enter recommend">
+          <div class="plan_list_item_belt">
+            <img src="/images/2024/plan_belt.webp?v=v2026-04-02-01" width="100" height="78" alt="おすすめ" fetchpriority="low" loading="lazy" decoding="async">
+          </div>
+          <div class="plan_list_item_head">
+            <span>大企業・官公庁の方へ</span>
+            <p class="bold">エンタープライズ</p>
+          </div>
+          <div class="plan_list_item_price">
+            <p class="bold"><em>23,100</em>円 / 月
+              <span>（年払い）</span>
+            </p>
+          </div>
+          <div class="plan_list_item_body">
+            管理者権限とIP制限で<br class="pc_none sp_none">強固なセキュリティを実現
+          </div>
+          <div class="plan_list_item_bottom">
+            <a href="https://biz.reserva.be/price/#corporation" class="button sub" target="_blank" data-label="Price-Enterprise-Detail">詳しく見る</a>
+          </div>
+        </li>
+
+        <li class="plan_list_item border-box suite">
+          <div class="plan_list_item_head">
+            <span>さらに高機能をお求めの方へ</span>
+            <p class="bold">スイート</p>
+          </div>
+          <div class="plan_list_item_price">
+            <p class="bold"><em>46,200</em>円 / 月
+              <span>（年払い）</span>
+            </p>
+          </div>
+          <div class="plan_list_item_body">
+            RESERVA予約の<br class="sp_none">「全機能」が使える
+          </div>
+          <div class="plan_list_item_bottom">
+            <a href="https://biz.reserva.be/price/#corporation" class="button sub" target="_blank" data-label="Price-Suite-Detail">詳しく見る</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="btn-wrap">
+        <a href="https://id.reserva.be/adm/account/register?service=reserve" class="button body main" data-label="Price-More">無料で予約サイトを開設</a>
+      </div>
+    </section>
+
+    <!-- START NEWS -->
+    <section class="news" id="news">
+      <h2 class="sec_title center">お知らせ</h2>
+      <div class="news_list">
+                <div class="news_item">
+          <span class="news_date">2026/2/24</span>
+          <a class="news_link" href="https://reserva.be/magazine/release-introduction-facility-extention/" target="_blank">延長専用の料金及び支払方法を設定できるようになりました</a>
+        </div>
+                <div class="news_item">
+          <span class="news_date">2026/2/2</span>
+          <a class="news_link" href="https://reserva.be/magazine/release-introduction-monthly-fee-carryover/" target="_blank">月額プランの未利用枠を翌月以降に繰り越せるようになりました</a>
+        </div>
+                <div class="news_item">
+          <span class="news_date">2026/1/15</span>
+          <a class="news_link" href="https://reserva.be/magazine/release-introduction-contact-us/" target="_blank">お問い合わせフォームをカスタマイズできるようになりました</a>
+        </div>
+                <div class="news_item">
+          <span class="news_date">2025/12/18</span>
+          <a class="news_link" href="https://reserva.be/magazine/smartlock-accommodation/" target="_blank">宿泊施設タイプにスマートロック連携機能を追加しました</a>
+        </div>
+                <div class="news_item">
+          <span class="news_date">2024/3/7</span>
+          <a class="news_link" href="https://reserva.be/magazine/release-link-with-google-calendar/" target="_blank">Googleカレンダーとの双方向連携機能をリリースしました</a>
+        </div>
+                <div class="news_item">
+          <span class="news_date">2023/8/2</span>
+          <a class="news_link" href="https://reserva.be/magazine/release-file-upload/" target="_blank">ファイル提出機能をリリースしました</a>
+        </div>
+                <div class="news_item">
+          <span class="news_date">2023/2/24</span>
+          <a class="news_link" href="https://reserva.be/magazine/release-line-linkage-function/" target="_blank">LINE連携機能をリリースしました</a>
+        </div>
+              </div>
+    </section>
+    <!-- END NEWS -->
+
+    <section id="conversion" class="full bg_gray">
+      <h2 class="cv_title center">さあ、ビジネスを<span>もっと</span><span>速く。</span></h2>
+      <div class="cv_inner">
+        <div class="cv_inner_item new-site border-box">
+          <div class="cv_head">
+            <div class="cv_img">
+              <picture>
+                <source type="image/webp" srcset="/images/2024/cv_img1.webp?v=v2026-04-02-01">
+                <img srcset="/images/2024/cv_img1.png?v=v2026-04-02-01" src="/images/2024/cvs_img1.png?v=v2026-04-02-01" alt="" fetchpriority="low" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <p class="bold">予約サイトを作成</p>
+          </div>
+          <span class="cv_text">無料で予約サイトを作成し、その日のうちに予約を開始できます。</span>
+          <div class="cv_link">
+            <a href="https://id.reserva.be/adm/account/register?service=reserve" class="button body main" data-label="Price-More">無料で予約サイトを開設</a>
+          </div>
+        </div>
+
+        <div class="cv_inner_item contact border-box sp_none">
+          <div class="cv_head">
+            <p class="bold">お問い合わせ</p>
+          </div>
+          <div class="cv_sub_content">
+            <span class="cv_text">経験豊富なスタッフがあなたのお悩みや<br>ご不明点にお答えします</span>
+            <div class="cv_link">
+              <a href="https://support.reserva.be/hc/ja/requests/new?ticket_form_id=222718" class="button body sub" target="_blank" data-label="Price-More">お問い合わせ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv_inner_item document border-box sp_none">
+          <div class="cv_head">
+            <p class="bold">資料請求</p>
+          </div>
+          <div class="cv_sub_content">
+            <span class="cv_text">RESERVAのさらに詳しい情報や、<br>運用例などをご覧いただけます</span>
+            <div class="cv_link">
+              <a href="https://20168495.hs-sites-na2.com/reserva-download-document-page" class="button body sub" target="_blank" data-label="Price-More">ダウンロード</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv_sp-btns pc_none tb_none">
+          <a href="https://support.reserva.be/hc/ja/requests/new?ticket_form_id=222718" class="button body sub" target="_blank" data-label="Price-More">お問い合わせ</a>
+          <a href="https://20168495.hs-sites-na2.com/reserva-download-document-page" class="button body sub" target="_blank" data-label="Price-More">資料請求</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!-- start Footer -->
+    <!-- start Footer -->
+<footer>
+    <!-- start Footer -->
+    <div id="Footer-Reservation-Sample-Nav">
+        <div class="inner">
+            <nav class="fn-reservation-sample">
+                <div class="fn-ttl">対応業種</div>
+                <ul class="jobs-wrap">
+                    <li class="jobs-item">
+                        <div class="label"><span>サービス</span></div>
+                        <ul>
+                            <li><a href="https://reserva.be/dentistsamplesuite" target="_blank">歯科医院</a></li>
+                            <li><a href="https://reserva.be/ocularsample01" target="_blank">眼科</a></li>
+                            <li><a href="https://reserva.be/clinicsample" target="_blank">クリニック</a></li>
+                            <li><a href="https://reserva.be/nailsalonsamplesuite" target="_blank">ネイルサロン</a></li>
+                            <li><a href="https://reserva.be/hairsalonsample" target="_blank">ヘアサロン</a></li>
+                        </ul>
+                    </li>
+                    <li class="jobs-item">
+                        <div class="label"><span>スクール・アクティビティ</span></div>
+                        <ul>
+                            <li><a href="https://reserva.be/yogastudiosamplesuite01" target="_blank">ヨガ教室</a></li>
+                            <li><a href="https://reserva.be/englishschoolsample" target="_blank">英会話教室</a></li>
+                            <li><a href="https://reserva.be/resecook" target="_blank">料理教室</a></li>
+                            <li><a href="https://reserva.be/kenshinsample" target="_blank">健康診断</a></li>
+                            <li><a href="https://reserva.be/sportsclubsample01" target="_blank">スポーツクラブ</a></li>
+                        </ul>
+                    </li>
+                    <li class="jobs-item">
+                        <div class="label"><span>イベント</span></div>
+                        <ul>
+                            <li><a href="https://reserva.be/seminarsamplesuite01" target="_blank">採用セミナー</a></li>
+                            <li><a href="https://reserva.be/workshopssample01" target="_blank">工場見学</a></li>
+                            <li><a href="https://reserva.be/plantationsample" target="_blank">農園・ファーム</a></li>
+                            <li><a href="https://reserva.be/dinnershowsample01" target="_blank">ディナーショー</a></li>
+                            <li><a href="https://reserva.be/housingexhibitionhallsample01" target="_blank">住宅展示場見学会</a></li>
+                        </ul>
+                    </li>
+                    <li class="jobs-item">
+                        <div class="label"><span>施設</span></div>
+                        <ul>
+                            <li><a href="https://reserva.be/futsalcourtsample01" target="_blank">フットサルコート</a></li>
+                            <li><a href="https://reserva.be/musicstudiosample" target="_blank">音楽スタジオ</a></li>
+                            <li><a href="https://reserva.be/onestudiosuite" target="_blank">社内会議室</a></li>
+                            <li><a href="https://reserva.be/rentalspacesample" target="_blank">レンタルスペース</a></li>
+                            <li><a href="https://reserva.be/publicfacilitysample" target="_blank">公共施設</a></li>
+                        </ul>
+                    </li>
+                    <li class="jobs-item">
+                        <div class="label"><span>宿泊</span></div>
+                        <ul>
+                            <li><a href="https://reserva.be/shukuhakusample02" target="_blank">ホテル</a></li>
+                            <li><a href="https://reserva.be/shukuhakusample01" target="_blank">民泊</a></li>
+                            <li><a href="https://reserva.be/campsample" target="_blank">キャンプ場</a></li>
+                            <li><a href="https://reserva.be/minshukusample01" target="_blank">民宿</a></li>
+                            <li><a href="https://reserva.be/dormitorysample" target="_blank">ドミトリー</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- end Reservation Sample Nav -->
+
+    <!-- start Reservation Footer -->
+    <div id="Footer-Reservation-Nav">
+        <div class="inner">
+            <nav class="fn-reservation">
+                <div class="fn-ttl">対応業界</div>
+                <ul>
+                    <li><a href="https://lg.reserva.be/" target="_blank">官公庁</a></li>
+                    <li><a href="https://ac.reserva.be/" target="_blank">大学・専門学校</a></li>
+                    <li><a href="https://digital.reserva.be/field/office-rental-lease-industry/" target="_blank">施設運営</a></li>
+                    <li><a href="https://md.reserva.be/" target="_blank">医療機関</a></li>
+                    <li><a href="https://fi.reserva.be/" target="_blank">銀行・信金・保険</a></li>
+                </ul>
+            </nav>
+            <nav class="fn-reservation">
+                <div class="fn-ttl">総合案内</div>
+                <ul>
+                    <li><a href="https://biz.reserva.be/price/#reservation" target="_blank">料金プラン</a></li>
+                    <li><a href="https://support.reserva.be/hc/ja/requests/new?ticket_form_id=222718" target="_blank">お問い合わせ</a></li>
+                    <li><a href="https://support.reserva.be/hc/ja/categories/202556068" target="_blank">よくあるご質問</a></li>
+                    <li><a href="https://support.reserva.be/hc/ja/" target="_blank">操作マニュアル・ヘルプ</a></li>
+                    <li><a href="https://reserva.be/magazine/" target="_blank">マガジン</a></li>
+                    <li><a href="https://biz.reserva.be/terms-business/" target="_blank">利用規約</a></li>
+                    <li><a href="https://biz.reserva.be/privacy/" target="_blank">個人情報保護方針</a></li>
+                    <li><a href="https://biz.reserva.be/settlement1/" target="_blank">特定商取引法に基づく表示</a></li>
+                    <li><a href="https://biz.reserva.be/security/" target="_blank">セキュリティについて</a></li>
+                    <li><a href="https://reserva.be/rsv/about" target="_blank">運営会社</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ./footerInner -->
+    </div>
+    <!-- end Reservation Footer -->
+
+    <!-- start Common Footer -->
+    <div id="Footer-Common-Nav">
+        <div class="inner">
+            <nav class="fn-app">
+                <div class="fn-ttl">関連サービス</div>
+                <ul>
+                    <li>
+                                                    <a href="/" target="_blank">
+                                <img src="/images/srv-logo-reservation.png" width="161" height="45" alt="RESERVA Reservation" fetchpriority="low" loading="lazy" decoding="async">
+                            </a>
+                                            </li>
+                    <li>
+                                                    <a href="https://biz.reserva.be/price/#more" target="_blank">
+                                <img src="/images/srv-logo-integration.png" width="162" height="45" alt="RESERVA Integration" fetchpriority="low" loading="lazy" decoding="async">
+                            </a>
+                                            </li>
+                    <li>
+                                                    <a href="https://biz.reserva.be/price/#more" target="_blank">
+                                <img src="/images/srv-logo-coupon.png" width="102" height="45" alt="RESERVA Coupon" fetchpriority="low" loading="lazy" decoding="async">
+                            </a>
+                                            </li>
+                    <li>
+                                                    <a href="https://biz.reserva.be/price/#more" target="_blank">
+                                <img src="/images/srv-logo-mail.png" width="63" height="45" alt="RESERVA Mail" fetchpriority="low" loading="lazy" decoding="async">
+                            </a>
+                                            </li>
+                    <li class="link_dx-labo">
+                        <a href="https://digital.reserva.be/" target="_blank">
+                            <img src="/images/logo-dxlabo.png" width="121" height="26" alt="RESERVA Digital" fetchpriority="low" loading="lazy" decoding="async">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="fn-company">
+                <ul>
+                    <li><img src="/images/2024/logo-isms.png" width="160" height="122" alt="IS 757883 / ISO 27001" fetchpriority="low" loading="lazy" decoding="async"></li>
+                    <li><img src="/images/2024/logo-isms-cls.png" width="160" height="121" alt="CLOUD 757884 / ISO 27017" fetchpriority="low" loading="lazy" decoding="async"></li>
+                </ul>
+            </nav>
+            <div class="copyright">© RESERVA</div>
+        </div><!-- ./footerInner -->
+    </div>
+    <!-- end Common Footer -->
+</footer>
+<!-- end Footer -->    <!-- end Footer -->
+    
+    
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9e76230edd92eb90","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.9.1","token":"fc9549b8b8c7449686465195dcb8bfa8"}' crossorigin="anonymous"></script>
 </body>
 </html>
